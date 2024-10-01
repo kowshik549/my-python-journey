@@ -68,7 +68,7 @@ try:
             print(row)
 except FileNotFoundError:
     print("The file does not exist.")
-except csv.Error as e:
-    print(f"Error reading CSV file: {e}")
-except Exception as e:
-    print(f"An unexpected error occurred: {e}")
+except csv.Error as k:
+    print("Error reading CSV file:{k}")
+except Exception as k1:
+    print("An unexpected error occurred:{k1}")
